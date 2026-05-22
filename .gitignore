@@ -1,13 +1,7 @@
-﻿data/
+﻿@"
+data/
 *.csv
-*.json
 *.db
-*.sqlite
 __pycache__/
-*.pyc
-venv/
-.vscode/
-.idea/
-*.log
-.env
 .ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
